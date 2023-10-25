@@ -1,0 +1,7 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "isolatedModules": false
+  },
+  "include": ["**/*.test.js?x", "**/*.test.ts?x", "**/*.spec.js?x", "**/*.spec.ts?x"]
+}
